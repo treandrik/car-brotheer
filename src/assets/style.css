@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ul li {
+    list-style: none;
+ } */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  background: #f40d0d;
+}
+
+/* ------------------ */
+body {
+  /* font-family: 'Arial', sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  color: #474747;
+}
+
+a {
+  color: #474747;
+}
+
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+.page__container {
+  max-width: 1800px !important;
+  display: flex;
+  height: 91vh;
+  height: calc(100vh - 116px);
+}
+._container {
+  max-width: 1453px;
+  margin: 0px auto;
+  position: relative;
+  padding: 0 15px;
+}
+
+.red {
+  color: #f40d0d !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 8px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+/*----------------------------------------------------------------*/
+
+.header {
+  background-image: url(img/header__bg.png);
+}
+
+.additional {
+}
